@@ -1,0 +1,48 @@
+#wrapper{
+	width: 500px;
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.pie-wrap{
+	width: 180px;
+	height: 180px;
+	border-radius: 180px;
+	border: 1px solid #ffc0c0;
+	position: relative;
+	overflow: hidden;
+}
+.item{
+	left: 50%;
+	top: 50%;
+	width: 140px;
+	height: 140px;
+	display: block;
+	background: #fff;
+	position: absolute;
+	transform-origin : 0 0;
+	transform :rotate(180deg) skewX(30deg);
+}
+.item:hover{
+	opacity: 0.5;
+}
+.item-1{
+	background: #f00;
+	transform :rotate(240deg)  skewX(30deg);
+}
+.item-2{
+	background: #00ff00;
+	transform : rotate(300deg) skewX(30deg);
+}
+.item-3{
+	background: #0000ff;
+	transform : rotate(360deg) skewX(30deg);
+}
+.item-4{
+	background: #ffff00;
+	transform : rotate(420deg) skewX(30deg);
+}
+.item-5{
+	background: #00ffff;
+	transform : rotate(480deg) skewX(30deg);
+}
